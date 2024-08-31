@@ -1,0 +1,66 @@
+body{
+  background-color: #14143c; 
+  font-family: "Signika", sans-serif;
+  color:white;
+  margin: 0px 
+}
+
+header{
+ 
+  position: fixed;
+  width: 100%;
+  background-color: #14143c; 
+  justify-content: space-between;
+  align-items: center;
+ 
+ 
+nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  word-spacing: 13px;
+ a{
+  border-top:1px white solid;
+  width:33%;
+  text-align: center;
+ }
+}
+
+img{
+  width:50px;
+  display:block;
+  margin:auto;
+  margin-bottom: 10px;
+}
+
+#ntm :hover {
+  border-top: #a9a9e0;
+}
+}
+
+nav :hover{
+  border-top: #ffffff 3px solid;
+  font-size: 20px;
+}
+main{
+  padding-top:100px;
+ 
+  margin-right:100px;
+  margin-left:100px ;
+
+  h1{
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-bottom:2px
+  }
+
+  span{
+    font-size: 19px;
+    color:gray
+  }
+
+}
+
+
+
+
