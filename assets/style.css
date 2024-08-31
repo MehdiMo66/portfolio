@@ -48,7 +48,102 @@ main h1 {
   font-weight: 700;
   margin-bottom: 2px;
 }
-main span {
-  font-size: 19px;
-  color: gray;
+
+svg {
+  width: 90px;
+  height: 90px;
+}
+
+svg circle {
+  fill: none;
+  stroke: rgb(0, 175, 58);
+  stroke-width: 10px;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 252;
+  stroke-dashoffset: 252;
+  stroke-linecap: round;
+}
+
+svg :nth-child(1) {
+  stroke: rgb(255, 255, 255);
+  stroke-dashoffset: 0;
+}
+
+.html :nth-child(2) {
+  animation: circle 2s forwards;
+}
+@keyframes circle {
+  to {
+    stroke-dashoffset: 25;
+  }
+}
+
+.percent {
+  position: absolute;
+  top: 1.6em;
+}
+
+.css :nth-child(2) {
+  animation: css 2s forwards;
+}
+@keyframes css {
+  to {
+    stroke-dashoffset: 37;
+  }
+}
+
+.sass :nth-child(2) {
+  animation: sass 2s forwards;
+}
+@keyframes sass {
+  to {
+    stroke-dashoffset: 50;
+  }
+}
+
+.js :nth-child(2) {
+  animation: js 2s forwards;
+}
+@keyframes js {
+  to {
+    stroke-dashoffset: 75;
+  }
+}
+
+.react :nth-child(2) {
+  animation: react 2s forwards;
+}
+@keyframes react {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+.competences {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 25px;
+  padding: 30px;
+}
+.competences img {
+  width: 20px;
+  height: 20px;
+}
+
+.competences:hover {
+  box-shadow: 0px 1px 20px 4px #2c55df;
+  transition-duration: 2s;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+article span {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
