@@ -1,0 +1,38 @@
+{
+    "competences" : [
+        {
+        "id" : "1",
+         "logo": "./assets/html.svg" ,
+         "tag": "HTML",
+         "progression":"90%"
+    },
+    {
+        "id" : "2",
+         "logo": "./assets/css.svg" ,
+         "tag": "CSS",
+         "progression":"85%"
+    },
+    {
+        "id" : "3",
+         "logo": "./assets/sass.svg" ,
+         "tag": "SASS",
+         "progression":"80%"
+    },
+    {
+        "id" : "4",
+        "logo": "./assets/js.svg" ,
+        "tag": "HTML",
+        "progression":"70%"
+    },
+    {
+        "id" : "5",
+        "logo": "./assets/react.svg" ,
+        "tag": "HTML",
+        "progression":"60%"
+    }
+    ]
+        
+    
+
+    
+}
