@@ -10,10 +10,17 @@ body{
 }
 
 header{
+  background:radial-gradient(circle, rgb(94 75 53) 100, rgb(42, 79, 70) 100%);
+  position: fixed;
+  top:0;
+  width:100%;
   padding-bottom:10px;  
   justify-content: space-between;
   align-items: center;
- 
+  margin-bottom: 50px;
+ z-index:10 ;
+
+
  img{
   width:60px;
   display:block;
@@ -27,7 +34,7 @@ nav{
   word-spacing: 13px;
 
  a{
-  border-top:1px white solid;
+  border-top:1px rgb(255, 255, 255) solid;
   width:33%;
   text-align: center;
   text-decoration: none;
@@ -38,19 +45,19 @@ nav{
 
 }
 
-nav :hover{
-  border-top: #ffffff 4px solid;
-  font-size: 25px;
+a:hover{
+  border-top: 4px rgb(255, 255, 255) solid;
+ font-size: 25px;
 }
 
 
 main{ 
-  margin: 0px 40px;
+  margin: 100px;
   display:flex;
   flex-direction: row;
   padding-top:80px;
   gap: 40px;
-
+ position: relative;
   
 
 .info{
@@ -106,12 +113,9 @@ div {
   border-radius: 20px;
 }
 
-h2{
-  margin:0px;
-  font-size: 30px;
-}
+
   img{
-    width:15px;
+    width:20px;
     display:block
   }
 
@@ -120,7 +124,9 @@ h2{
     align-items: center;
     justify-content:right;
     gap:5px;
-    font-size : 20px
+    font-size : 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
 
   .container {

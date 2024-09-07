@@ -46,9 +46,15 @@ body {
 }
 
 header {
+  background: radial-gradient(circle, rgb(94, 75, 53) 100, rgb(42, 79, 70) 100%);
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding-bottom: 10px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
+  z-index: 10;
 }
 header img {
   width: 60px;
@@ -63,7 +69,7 @@ header nav {
   word-spacing: 13px;
 }
 header nav a {
-  border-top: 1px white solid;
+  border-top: 1px rgb(255, 255, 255) solid;
   width: 33%;
   text-align: center;
   text-decoration: none;
@@ -71,17 +77,18 @@ header nav a {
   font-size: 20px;
 }
 
-nav :hover {
-  border-top: #ffffff 4px solid;
+a:hover {
+  border-top: 4px rgb(255, 255, 255) solid;
   font-size: 25px;
 }
 
 main {
-  margin: 0px 40px;
+  margin: 100px;
   display: flex;
   flex-direction: row;
   padding-top: 80px;
   gap: 40px;
+  position: relative;
 }
 main .info {
   width: 40%;
@@ -127,12 +134,8 @@ main h1 {
 .competences div {
   border-radius: 20px;
 }
-.competences h2 {
-  margin: 0px;
-  font-size: 30px;
-}
 .competences img {
-  width: 15px;
+  width: 20px;
   display: block;
 }
 .competences span {
@@ -141,6 +144,8 @@ main h1 {
   justify-content: right;
   gap: 5px;
   font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 .competences .container {
   background-color: #bdbdbd;
